@@ -1,0 +1,45 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\liang\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add socket.io
+
+PATH: 
+  D:\mongodb\bin;C:\Program Files\nodejs\;C:\Windows\System32;C:\Users\liang\.windows-build-tools\python27\;C:\Users\liang\AppData\Local\Microsoft\WindowsApps;D:\Program Files (x86)\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2020.2\bin;C:\Users\liang\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  14.7.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile 'C:\Users\liang\AppData\Local\Yarn\Cache\v6\npm-ansi-regex-4.1.0-8b9f8f08cf1acb843756a839ca8c7e3168c51997-integrity\node_modules\ansi-regex\index.js' -> 'E:\课外学习\前端\tfboys-server\node_modules\ansi-align\node_modules\ansi-regex\index.js'
+
+npm manifest: 
+  {
+    "name": "gzhipin-server",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+      "start": "nodemon ./bin/www"
+    },
+    "dependencies": {
+      "blueimp-md5": "^2.17.0",
+      "cookie-parser": "~1.4.3",
+      "debug": "~2.6.9",
+      "ejs": "~2.5.7",
+      "express": "~4.16.0",
+      "http-errors": "~1.6.2",
+      "js-cookies": "^1.0.4",
+      "mongoose": "^5.10.0",
+      "morgan": "~1.9.0",
+      "nodemon": "^2.0.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
